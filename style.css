@@ -14,41 +14,33 @@ body {
     width: 300px;
 }
 
-.display {
-    background-color: #222;
-    color: #fff;
+#display {
+    width: 100%;
+    height: 60px;
+    border: none;
     text-align: right;
     padding: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    font-size: 24px;
+    box-sizing: border-box;
 }
 
-.display input {
-    width: 100%;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 2em;
-    text-align: right;
-}
-
-.keys {
+.buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.keys button {
+button {
+    height: 60px;
     border: 1px solid #ccc;
-    padding: 20px;
-    font-size: 1.5em;
-    cursor: pointer;
     background-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-.keys button:hover {
+button:hover {
     background-color: #f0f0f0;
 }
 
-.keys button:active {
-    background-color: #ddd;
+button:active {
+    background-color: #e0e0e0;
 }
